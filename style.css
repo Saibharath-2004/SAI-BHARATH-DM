@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Outfit", sans-serif;
+    background-image: url("	https://media.istockphoto.com/id/1257951336/photo/transparent-umbrella-under-rain-against-water-drops-splash-background-rainy-weather-concept.jpg?s=612x612&w=0&k=20&c=lNvbIw1wReb-owe7_rMgW8lZz1zElqs5BOY1AZhyRXs=");
+    background-size: cover;
+    background-position:center;
+  }
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(143, 9, 9, 0.3),
+      rgba(120, 27, 27, 0.34)
+    );
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color:white;
+    border-radius: 16px;
+    border-bottom: 3px solid #fefefe;
+  
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    color: #eeeeee;
+  }
+  header input:focus {
+    background-color: rgba(98, 49, 49, 0.8);
+  }  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .location .city {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .location .date {
+    color: #eeeeee;
+    font-size: 16px;
+  }
+  .current .temp {
+    color: #eeeeee;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 8px rgba(97, 52, 52, 0.5);
+  }
+  .current .temp span {
+    font-weight: 200;
+  }
+  .current .weather {
+    color: #eeeeee;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+  }
+  .current .hi-low {
+    color: #fcfcfc;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+  }
+  .contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  
